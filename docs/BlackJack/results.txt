@@ -1,0 +1,69 @@
+V1: (100000games)
+
+Player 0 has a balance of 41897 and had -3.136% winnings
+Player 1 has a balance of 42425 and had -3.106% winnings
+Player 2 has a balance of 41406.5 and had -3.162% winnings
+Player 3 has a balance of 45602.5 and had -2.936% winnings
+Player 4 has a balance of 44179 and had -3.013% winnings
+
+V2: (100000games)
+
+Player 0 has a balance of 102720.5 and had 0.187% winnings
+Player 1 has a balance of 100849.5 and had 0.058% winnings
+Player 2 has a balance of 101510 and had 0.104% winnings
+Player 3 has a balance of 101389.5 and had 0.095% winnings
+Player 4 has a balance of 100875.5 and had 0.06% winnings
+
+V3: (200000games) - 6 Decks - Basic rules
+0.40312% - 0.42622%
+
+Player 0 has a balance of 86622 and had -0.386% winnings
+Player 1 has a balance of 88171 and had -0.341% winnings
+Player 2 has a balance of 86404.5 and had -0.392% winnings
+Player 3 has a balance of 83694 and had -0.47% winnings
+Player 4 has a balance of 83760.5 and had -0.468% winnings
+
+
+hilo true count + bet multiplier
+Player 0 has a balance of 1197453.4954282441 and had 0.704% winnings
+Player 1 has a balance of 1213048.2766817298 and had 0.758% winnings
+Player 2 has a balance of 1122321.791679317 and had 0.436% winnings
+Player 3 has a balance of 1145245.197494495 and had 0.517% winnings
+Player 4 has a balance of 1180463.1742011963 and had 0.641% winnings
+
+no more blackjack after split. But Ace split allowed
+HILO true count 
+no spread limit
+Player 0 has a balance of 1452843.1425395862 and had 1.613% winnings
+Player 1 has a balance of 1436078.4535931975 and had 1.552% winnings
+Player 2 has a balance of 1398908.3886594872 and had 1.42% winnings
+Player 3 has a balance of 1439229.9635090749 and had 1.563% winnings
+Player 4 has a balance of 1470856.626967182 and had 1.674% winnings
+
+spread 1 of 10
+Player 0 has a balance of 1172524.066033854 and had 0.882% winnings
+Player 1 has a balance of 1218345.5678361778 and had 1.117% winnings
+Player 2 has a balance of 1199220.5077087781 and had 1.018% winnings
+Player 3 has a balance of 1204023.4654175134 and had 1.042% winnings
+Player 4 has a balance of 1184423.9353564866 and had 0.942% winnings
+
+These stakes are too high for some reason !
+Return to lower player edge : no Ace split, no counting
+Player 0 has a balance of 935970 and had -0.377% winnings
+Player 1 has a balance of 934930 and had -0.383% winnings
+Player 2 has a balance of 937840 and had -0.366% winnings
+Player 3 has a balance of 919585 and had -0.474% winnings
+Player 4 has a balance of 928175 and had -0.424% winnings
+
+Then with counting , smart_balance of 2-20, smart_advice:
+Player 0 has a balance of 1043275 and had 0.222% winnings
+Player 1 has a balance of 1033216 and had 0.17% winnings
+Player 2 has a balance of 1005844 and had 0.03% winnings
+Player 3 has a balance of 1042719 and had 0.219% winnings
+Player 4 has a balance of 1057463 and had 0.294% winnings
+
+Player 0 has a balance of 1030397 and had 0.156% winnings
+Player 1 has a balance of 1009102 and had 0.047% winnings
+Player 2 has a balance of 1066867 and had 0.342% winnings
+Player 3 has a balance of 1041280 and had 0.211% winnings
+Player 4 has a balance of 1034996 and had 0.179% winnings

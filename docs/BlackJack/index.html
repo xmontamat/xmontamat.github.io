@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BlackJack Pro</title>
+<link href="shortcut_icon.png" rel="shortcut icon" type="image/png" />
+</head>
+<body>
+	<div id="test"></div>
+</body>
+<style type="text/css">
+body{
+	margin:0px;
+}
+img.undisplayed{
+	position:absolute;
+	top : 0px;
+	z-index: -1;
+	visibility:hidden;
+}
+#overlay {
+	position: absolute;
+	display:block;
+	top:0px;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: left;
+	font-size:17px;
+	color: #000000;
+	font-weight:bold;
+	z-index:10;
+}
+</style>
+<SCRIPT LANGUAGE="Javascript" SRC="game.js"> </SCRIPT>
+<SCRIPT LANGUAGE="Javascript" SRC="autoplay.js"> </SCRIPT>
+<SCRIPT LANGUAGE="Javascript" SRC="graphics.js"> </SCRIPT>
+<body oncontextmenu="return false;" >
+<canvas id="main_canvas"></canvas>
+<div id="overlay"> </div>
+
+
+<img id="ace_of_clubs" class="undisplayed" src="PNG-cards/ace_of_clubs.png"><img id="ace_of_diamonds" class="undisplayed" src="PNG-cards/ace_of_diamonds.png"><img id="ace_of_hearts" class="undisplayed" src="PNG-cards/ace_of_hearts.png"><img id="ace_of_spades" class="undisplayed" src="PNG-cards/ace_of_spades.png"><img id="2_of_clubs" class="undisplayed" src="PNG-cards/2_of_clubs.png"><img id="2_of_diamonds" class="undisplayed" src="PNG-cards/2_of_diamonds.png"><img id="2_of_hearts" class="undisplayed" src="PNG-cards/2_of_hearts.png"><img id="2_of_spades" class="undisplayed" src="PNG-cards/2_of_spades.png"><img id="3_of_clubs" class="undisplayed" src="PNG-cards/3_of_clubs.png"><img id="3_of_diamonds" class="undisplayed" src="PNG-cards/3_of_diamonds.png"><img id="3_of_hearts" class="undisplayed" src="PNG-cards/3_of_hearts.png"><img id="3_of_spades" class="undisplayed" src="PNG-cards/3_of_spades.png"><img id="4_of_clubs" class="undisplayed" src="PNG-cards/4_of_clubs.png"><img id="4_of_diamonds" class="undisplayed" src="PNG-cards/4_of_diamonds.png"><img id="4_of_hearts" class="undisplayed" src="PNG-cards/4_of_hearts.png"><img id="4_of_spades" class="undisplayed" src="PNG-cards/4_of_spades.png"><img id="5_of_clubs" class="undisplayed" src="PNG-cards/5_of_clubs.png"><img id="5_of_diamonds" class="undisplayed" src="PNG-cards/5_of_diamonds.png"><img id="5_of_hearts" class="undisplayed" src="PNG-cards/5_of_hearts.png"><img id="5_of_spades" class="undisplayed" src="PNG-cards/5_of_spades.png"><img id="6_of_clubs" class="undisplayed" src="PNG-cards/6_of_clubs.png"><img id="6_of_diamonds" class="undisplayed" src="PNG-cards/6_of_diamonds.png"><img id="6_of_hearts" class="undisplayed" src="PNG-cards/6_of_hearts.png"><img id="6_of_spades" class="undisplayed" src="PNG-cards/6_of_spades.png"><img id="7_of_clubs" class="undisplayed" src="PNG-cards/7_of_clubs.png"><img id="7_of_diamonds" class="undisplayed" src="PNG-cards/7_of_diamonds.png"><img id="7_of_hearts" class="undisplayed" src="PNG-cards/7_of_hearts.png"><img id="7_of_spades" class="undisplayed" src="PNG-cards/7_of_spades.png"><img id="8_of_clubs" class="undisplayed" src="PNG-cards/8_of_clubs.png"><img id="8_of_diamonds" class="undisplayed" src="PNG-cards/8_of_diamonds.png"><img id="8_of_hearts" class="undisplayed" src="PNG-cards/8_of_hearts.png"><img id="8_of_spades" class="undisplayed" src="PNG-cards/8_of_spades.png"><img id="9_of_clubs" class="undisplayed" src="PNG-cards/9_of_clubs.png"><img id="9_of_diamonds" class="undisplayed" src="PNG-cards/9_of_diamonds.png"><img id="9_of_hearts" class="undisplayed" src="PNG-cards/9_of_hearts.png"><img id="9_of_spades" class="undisplayed" src="PNG-cards/9_of_spades.png"><img id="10_of_clubs" class="undisplayed" src="PNG-cards/10_of_clubs.png"><img id="10_of_diamonds" class="undisplayed" src="PNG-cards/10_of_diamonds.png"><img id="10_of_hearts" class="undisplayed" src="PNG-cards/10_of_hearts.png"><img id="10_of_spades" class="undisplayed" src="PNG-cards/10_of_spades.png"><img id="jack_of_clubs2" class="undisplayed" src="PNG-cards/jack_of_clubs2.png"><img id="jack_of_diamonds2" class="undisplayed" src="PNG-cards/jack_of_diamonds2.png"><img id="jack_of_hearts2" class="undisplayed" src="PNG-cards/jack_of_hearts2.png"><img id="jack_of_spades2" class="undisplayed" src="PNG-cards/jack_of_spades2.png"><img id="queen_of_clubs2" class="undisplayed" src="PNG-cards/queen_of_clubs2.png"><img id="queen_of_diamonds2" class="undisplayed" src="PNG-cards/queen_of_diamonds2.png"><img id="queen_of_hearts2" class="undisplayed" src="PNG-cards/queen_of_hearts2.png"><img id="queen_of_spades2" class="undisplayed" src="PNG-cards/queen_of_spades2.png"><img id="king_of_clubs2" class="undisplayed" src="PNG-cards/king_of_clubs2.png"><img id="king_of_diamonds2" class="undisplayed" src="PNG-cards/king_of_diamonds2.png"><img id="king_of_hearts2" class="undisplayed" src="PNG-cards/king_of_hearts2.png"><img id="king_of_spades2" class="undisplayed" src="PNG-cards/king_of_spades2.png"><img id="red_joker" class="undisplayed" src="PNG-cards/red_joker.png">
+<img id="card_back" class="undisplayed" src="PNG-cards/card_back.png">
+<img id="balance" class="undisplayed" src="balance.png">
+
+<img id="surrender" class="undisplayed" src="ico-surrender.png">
+<img id="hit" class="undisplayed" src="ico-add.png">
+<img id="double" class="undisplayed" src="ico-double.png">
+<img id="new" class="undisplayed" src="ico-new.png">
+<img id="stand" class="undisplayed" src="ico-stop2.png">
+<img id="split" class="undisplayed" src="ico-split.png">
+
+</body>
+<SCRIPT LANGUAGE="Javascript" SRC="init.js"> </SCRIPT>
+</html>
