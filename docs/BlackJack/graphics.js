@@ -10,8 +10,10 @@ function display(_game, bot_advice){
 		_game.displayed_choices.push(display_choice);
 	}
 	
-	main_canvas.width=1861*ratio();
-	main_canvas.height=950*ratio();
+	//main_canvas.width=1861*ratio();
+	//main_canvas.height=950*ratio();
+	main_canvas.width=(window.innerWidth -20)
+	main_canvas.height=(window.innerHeight -5)
 	main_canvas.addEventListener("mousedown", getPosition, false);
 	var main= main_canvas.getContext("2d");
 	var font_size = 18*ratio();
@@ -39,6 +41,7 @@ function display(_game, bot_advice){
 	//---------DEALER--------
 	var image = document.getElementById(_dealer_hand.display_card(0));
 	draw_card(main, image, _dealer_hand.X, _dealer_hand.Y);
+	draw_signature(main,main_canvas.width, main_canvas.height)
 	if(_dealer_hand.active){
 		image = document.getElementById("card_back");
 		var dealer_text= "Dealer"; 
@@ -222,7 +225,22 @@ function draw_card(main, _image, _X, _Y){
 function ratio(){
 	return (window.innerWidth - 20)/1861;
 }
-
+function draw_signature(main, canvas_width, canvas_height){
+	var prev_font = main.font;
+	var prev_fillStyle = main.fillStyle;
+	main.fillStyle="#777777";
+	main.font="italic "+15*ratio()+"px times new roman";
+	main.shadowOffsetX=0.5;
+	main.shadowOffsetY=0.5;
+	main.shadowBlur=0.5;
+	main.shadowColor="#999999";
+	main.fillText("By Xavier Montamat", 1695*ratio(), 970*ratio());
+	main.shadowOffsetX=0;
+	main.shadowOffsetY=0;
+	main.shadowBlur=0;
+	main.fillStyle =prev_fillStyle;
+	main.font=prev_font;
+}
 function getPosition(event){
 	if (FF){
 		clicX = ((window.event) ? window.event.pageX : event.clientX) + document.documentElement.scrollLeft;
