@@ -40,8 +40,16 @@ function display(_game, bot_advice){
 	main.clearRect(0,0,main_canvas.width, main_canvas.height);
 	//---------DEALER--------
 	var image = document.getElementById(_dealer_hand.display_card(0));
+	/*
+	var background_gradient=main.createRadialGradient((1861*0.5)*ratio(),main_canvas.height/4,5,(1861*0.5)*ratio(),main_canvas.height/2,main_canvas.height*2);
+	background_gradient.addColorStop(0,' #d9f2d9');
+	background_gradient.addColorStop(1,"white");
+	main.fillStyle=background_gradient;
+	main.fillRect(0,0,main_canvas.width,main_canvas.height);
+	*/
 	draw_card(main, image, _dealer_hand.X, _dealer_hand.Y);
 	draw_signature(main,main_canvas.width, main_canvas.height)
+	
 	if(_dealer_hand.active){
 		image = document.getElementById("card_back");
 		var dealer_text= "Dealer"; 
